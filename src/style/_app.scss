@@ -1,0 +1,19 @@
+.container {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  position: absolute;
+  padding-left: 16px;
+  padding-right: 16px;
+
+  @media screen and (min-width: 575.98px) {
+    flex-wrap: unset;
+    position: unset;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
